@@ -101,4 +101,3 @@ model:
         output_dim: 1024
         ff_mult: 4
         video_length: 16
-
