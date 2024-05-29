@@ -17,40 +17,7 @@
 
 
 
-<!-- ### 1 Showcases (512x320)
-<table class="center">
-  <tr>
-  <td>
-    <img src=assets/showcase/bloom2.gif width="340">
-  </td>
-  <td>
-    <img src=assets/showcase/train_anime02.gif width="340">
-  </td>
-  </tr>
-
-  <tr>
-  <td>
-    <img src=assets/showcase/pour_honey.gif width="340">
-  </td>
-  <td>
-    <img src=assets/showcase/lighthouse.gif width="340">
-  </td>
-  </tr>
-</table>
-
-
-
-
-### 2. Applications
-#### 2.1 Cartoon Sketch Interpolation (see project page for more details)
-<table class="center">
-  <tr>
-    <td colspan="4"><img src=assets/application/storytellingvideo.gif width="250"></td>
-  </tr>
-</table >
-
-#### 2.2 Reference-based Sketch Colorization
-
+### 1.1 Showcases (512x320)
 <table class="center">
     <tr style="font-weight: bolder;text-align:center;">
         <td>Input starting frame</td>
@@ -59,40 +26,166 @@
     </tr>
   <tr>
   <td>
-    <img src=assets/application/gkxX0kb8mE8_input_start.png width="250">
+    <img src=assets/72109_125.mp4_00-00.png width="250">
   </td>
   <td>
-    <img src=assets/application/gkxX0kb8mE8_input_end.png width="250">
+    <img src=assets/72109_125.mp4_00-01.png width="250">
   </td>
   <td>
-    <img src=assets/application/gkxX0kb8mE8.gif width="250">
+    <img src=assets/00.gif width="250">
   </td>
   </tr>
 
 
    <tr>
   <td>
-    <img src=assets/application/smile_start.png width="250">
+    <img src=assets/Japan_v2_2_062266_s2_frame1.png width="250">
   </td>
   <td>
-    <img src=assets/application/smile_end.png width="250">
+    <img src=assets/Japan_v2_2_062266_s2_frame3.png width="250">
   </td>
   <td>
-    <img src=assets/application/smile.gif width="250">
+    <img src=assets/03.gif width="250">
   </td>
   </tr>
   <tr>
   <td>
-    <img src=assets/application/stone01_start.png width="250">
+    <img src=assets/Japan_v2_1_070321_s3_frame1.png width="250">
   </td>
   <td>
-    <img src=assets/application/stone01_end.png width="250">
+    <img src=assets/Japan_v2_1_070321_s3_frame3.png width="250">
   </td>
   <td>
-    <img src=assets/application/stone01.gif width="250">
+    <img src=assets/02.gif width="250">
   </td>
   </tr> 
-</table > -->
+  <tr>
+  <td>
+    <img src=assets/74302_1349_frame1.png width="250">
+  </td>
+  <td>
+    <img src=assets/74302_1349_frame3.png width="250">
+  </td>
+  <td>
+    <img src=assets/01.gif width="250">
+  </td>
+  </tr>
+</table>
+
+### 1.2 Sparse sketch guidance
+<table class="center">
+    <tr style="font-weight: bolder;text-align:center;">
+        <td>Input starting frame</td>
+        <td>Input ending frame</td>
+        <td>Input sketch guidance</td>
+        <td>Generated video</td>
+    </tr>
+  <tr>
+  <td>
+    <img src=assets/72105_388.mp4_00-00.png width="200">
+  </td>
+  <td>
+    <img src=assets/72105_388.mp4_00-01.png width="200">
+  </td>
+  <td>
+    <img src=assets/06.gif width="200">
+  </td>
+   <td>
+    <img src=assets/07.gif width="200">
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    <img src=assets/72110_255.mp4_00-00.png width="200">
+  </td>
+  <td>
+    <img src=assets/72110_255.mp4_00-01.png width="200">
+  </td>
+  <td>
+    <img src=assets/12.gif width="200">
+  </td>
+   <td>
+    <img src=assets/13.gif width="200">
+  </td>
+  </tr>
+
+
+</table>
+
+
+### 2. Applications
+#### 2.1 Cartoon Sketch Interpolation (see project page for more details)
+<table class="center">
+    <tr style="font-weight: bolder;text-align:center;">
+        <td>Input starting frame</td>
+        <td>Input ending frame</td>
+        <td>Generated video</td>
+    </tr>
+
+  <tr>
+  <td>
+    <img src=assets/frame0001_10.png width="250">
+  </td>
+  <td>
+    <img src=assets/frame0016_10.png width="250">
+  </td>
+  <td>
+    <img src=assets/10.gif width="250">
+  </td>
+  </tr>
+
+
+   <tr>
+  <td>
+    <img src=assets/frame0001_11.png width="250">
+  </td>
+  <td>
+    <img src=assets/frame0016_11.png width="250">
+  </td>
+  <td>
+    <img src=assets/11.gif width="250">
+  </td>
+  </tr>
+
+</table>
+
+
+#### 2.2 Reference-based Sketch Colorization
+<table class="center">
+    <tr style="font-weight: bolder;text-align:center;">
+        <td>Input sketch</td>
+        <td>Input reference</td>
+        <td>Colorization results</td>
+    </tr>
+    
+  <tr>
+  <td>
+    <img src=assets/04.gif width="250">
+  </td>
+  <td>
+    <img src=assets/frame0001_05.png width="250">
+  </td>
+  <td>
+    <img src=assets/05.gif width="250">
+  </td>
+  </tr>
+
+
+   <tr>
+  <td>
+    <img src=assets/08.gif width="250">
+  </td>
+  <td>
+    <img src=assets/frame0001_09.png width="250">
+  </td>
+  <td>
+    <img src=assets/09.gif width="250">
+  </td>
+  </tr>
+
+</table>
+
 
 
 
@@ -131,7 +224,7 @@ pip install -r requirements.txt
 
 Download pretrained ToonCrafter_512 and put the `model.ckpt` in `checkpoints/tooncrafter_512_interp_v1/model.ckpt`.
 ```bash
-  sh scripts/run_application.sh # Generate frame interpolation
+  sh scripts/run.sh
 ```
 
 
