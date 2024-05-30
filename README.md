@@ -9,7 +9,7 @@
  
 ## 🔆 Introduction
 
-⚠️ Please check our [disclaimer]((#disc)) first.
+⚠️ Please check our [disclaimer]((#disclaimer)) first.
 
 🤗 ToonCrafter can interpolate two cartoon images by leveraging the pre-trained image-to-video diffusion priors. Please check our project page and paper for more information. <br>
 
@@ -247,8 +247,8 @@ Download the pretrained model and put it in the corresponding directory accordin
 
 
 
-<a id="disc"></a>
-## 📢 Disclaimer
+
+## Disclaimer
 Calm down. Our framework opens up the era of generative cartoon interpolation, but due to the variaity of generative video prior, the success rate is not guaranteed.
 
 ⚠️This is an open-source research exploration, instead of commercial products. It can't meet all your expectations.
