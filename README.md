@@ -2,7 +2,21 @@
 <!-- ![](./assets/logo_long.png#gh-light-mode-only){: width="50%"} -->
 <!-- ![](./assets/logo_long_dark.png#gh-dark-mode-only=100x20) -->
 <div align="center">
+<img src='assets/logo/logo2.png' style="height:100px"></img>
 
+ <a href='https://arxiv.org/abs/2405.17933'><img src='https://img.shields.io/badge/arXiv-2405.17933-b31b1b.svg'></a> &nbsp;
+ <a href='https://doubiiu.github.io/projects/ToonCrafter/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;
+<a href='https://www.youtube.com/watch?v=u3F35do93_8'><img src='https://img.shields.io/badge/Youtube-Video-b31b1b.svg'></a><br>
+<a href='https://replicate.com/fofr/tooncrafter'><img src='https://img.shields.io/badge/replicate-Demo-blue'></a>&nbsp;&nbsp;
+<a href='https://github.com/camenduru/ToonCrafter-jupyter'><img src='https://img.shields.io/badge/Colab-Demo-Green'></a>&nbsp;
+<a href='https://huggingface.co/spaces/Doubiiu/tooncrafter'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face%20ToonCrafter-Demo-blue'></a>
+
+
+_**[Jinbo Xing](https://doubiiu.github.io/), [Hanyuan Liu](https://github.com/hyliu), [Menghan Xia](https://menghanxia.github.io), [Yong Zhang](https://yzhang2016.github.io), [Xintao Wang](https://xinntao.github.io/), [Ying Shan](https://scholar.google.com/citations?hl=en&user=4oXBp9UAAAAJ&view_op=list_works&sortby=pubdate), [Tien-Tsin Wong](https://ttwong12.github.io/myself.html)**_
+<br><br>
+From CUHK and Tencent AI Lab.
+
+<strong>at SIGGRAPH Asia 2024, Journal Track</strong>
 
 
 </div>
@@ -205,8 +219,9 @@
 
 |Model|Resolution|GPU Mem. & Inference Time (A100, ddim 50steps)|Checkpoint|
 |:---------|:---------|:--------|:--------|
-|ToonCrafter_512|320x512| TBD (`perframe_ae=True`)|[Hugging Face](https://huggingface.co/Doubiiu/ToonCrafter/blob/main/model.ckpt)|
+|ToonCrafter_512|320x512| ~24G & 24s (`perframe_ae=True`)|[Hugging Face](https://huggingface.co/Doubiiu/ToonCrafter/blob/main/model.ckpt)|
 
+We get the feedback from issues that the model may consume about 24G~27G GPU memory in this implementation, but the community has lowered the consumption to ~10GB.
 
 Currently, our ToonCrafter can support generating videos of up to 16 frames with a resolution of 512x320. The inference time can be reduced by using fewer DDIM steps.
 
@@ -243,12 +258,40 @@ Download the pretrained model and put it in the corresponding directory accordin
 
 
 
-<!-- ## 🤝 Community Support -->
+## 🤝 Community Support
+1. ComfyUI and pruned models (fp16): [ComfyUI-DynamiCrafterWrapper](https://github.com/kijai/ComfyUI-DynamiCrafterWrapper) (Thanks to [kijai](https://twitter.com/kijaidesign))
+
+|Model|Resolution|GPU Mem. |Checkpoint|
+|:---------|:---------|:--------|:--------|
+|ToonCrafter|512x320|12GB |[Hugging Face](https://huggingface.co/Kijai/DynamiCrafter_pruned/blob/main/tooncrafter_512_interp-fp16.safetensors)|
+
+2. ComfyUI. [ComfyUI-ToonCrafter](https://github.com/AIGODLIKE/ComfyUI-ToonCrafter) (Thanks to [Yorha4D](https://github.com/Yorha4D))
+
+3. Colab. [Code](https://github.com/camenduru/ToonCrafter-jupyter) (Thanks to [camenduru](https://github.com/camenduru)), [Code](https://gist.github.com/0smboy/baef995b8f5974f19ac114ec20ac37d5) (Thanks to [0smboy](https://github.com/0smboy))
+
+4. Windows platform support: [ToonCrafter-for-windows](https://github.com/sdbds/ToonCrafter-for-windows) (Thanks to [sdbds](https://github.com/sdbds))
+
+5. Sketch-guidance implementation: [ToonCrafter_with_SketchGuidance](https://github.com/mattyamonaca/ToonCrafter_with_SketchGuidance) (Thanks to [mattyamonaca](https://github.com/mattyamonaca))
+
+## 😉 Citation
+Please consider citing our paper if our code is useful:
+```bib
+@article{xing2024tooncrafter,
+  title={ToonCrafter: Generative Cartoon Interpolation},
+  author={Xing, Jinbo and Liu, Hanyuan and Xia, Menghan and Zhang, Yong and Wang, Xintao and Shan, Ying and Wong, Tien-Tsin},
+  journal={arXiv preprint arXiv:2405.17933},
+  year={2024}
+}
+```
 
 
+## 🙏 Acknowledgements
+We would like to thank [Xiaoyu](https://engineering.purdue.edu/people/xiaoyu.xiang.1) for providing the [sketch extractor](https://github.com/Mukosame/Anime2Sketch), and [supraxylon](https://github.com/supraxylon) for the Windows batch script.
 
 <a name="disc"></a>
 ## 📢 Disclaimer
+We have not set up any official profit-making projects or web applications. Please be cautious.
+
 Calm down. Our framework opens up the era of generative cartoon interpolation, but due to the variaity of generative video prior, the success rate is not guaranteed.
 
 ⚠️This is an open-source research exploration, instead of commercial products. It can't meet all your expectations.
