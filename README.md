@@ -23,7 +23,7 @@ From CUHK and Tencent AI Lab.
  
 ## 🔆 Introduction
 
-⚠️ Please check our [disclaimer](#disc) first.
+⚠️ We have not set up any official profit-making projects or web applications. Please be cautious!!!
 
 🤗 ToonCrafter can interpolate two cartoon images by leveraging the pre-trained image-to-video diffusion priors. Please check our project page and paper for more information. <br>
 
@@ -290,8 +290,6 @@ We would like to thank [Xiaoyu](https://engineering.purdue.edu/people/xiaoyu.xia
 
 <a name="disc"></a>
 ## 📢 Disclaimer
-We have not set up any official profit-making projects or web applications. Please be cautious.
-
 Calm down. Our framework opens up the era of generative cartoon interpolation, but due to the variaity of generative video prior, the success rate is not guaranteed.
 
 ⚠️This is an open-source research exploration, instead of commercial products. It can't meet all your expectations.
