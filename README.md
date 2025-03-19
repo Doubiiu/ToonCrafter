@@ -277,9 +277,12 @@ Download the pretrained model and put it in the corresponding directory accordin
 Please consider citing our paper if our code is useful:
 ```bib
 @article{xing2024tooncrafter,
-  title={ToonCrafter: Generative Cartoon Interpolation},
+  title={Tooncrafter: Generative cartoon interpolation},
   author={Xing, Jinbo and Liu, Hanyuan and Xia, Menghan and Zhang, Yong and Wang, Xintao and Shan, Ying and Wong, Tien-Tsin},
-  journal={arXiv preprint arXiv:2405.17933},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={43},
+  number={6},
+  pages={1--11},
   year={2024}
 }
 ```
